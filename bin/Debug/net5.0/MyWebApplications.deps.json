@@ -26,6 +26,7 @@
       "MyWebApplications/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "1.5.3",
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
           "Microsoft.EntityFrameworkCore": "5.0.2",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.2",
           "Newtonsoft.Json": "12.0.3",
@@ -422,6 +423,7 @@
           }
         }
       },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.2": {},
       "Microsoft.EntityFrameworkCore/5.0.2": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.2",
@@ -525,8 +527,16 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "System.Collections.Immutable/5.0.0": {},
-      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Collections.Immutable/5.0.0": {
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
         "runtime": {
           "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
@@ -2246,6 +2256,13 @@
       "sha512": "sha512-cB4t+bp6Rb3SVAsnn1fbTBcCWLNbsMnwpbbV4T9jucKQ5Z3Sn/Wo3ji8BdJ9B+xWR7DkiRnQuIu3quvanJgFXQ==",
       "path": "librdkafka.redist/1.5.3",
       "hashPath": "librdkafka.redist.1.5.3.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7xt6zTlIEizUgEsYAIgm37EbdkiMmr6fP6J9pDoKEpiGM4pi32BCPGr/IczmSJI9Zzp0a6HOzpr9OvpMP+2veA==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.2",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.2.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/5.0.2": {
       "type": "package",

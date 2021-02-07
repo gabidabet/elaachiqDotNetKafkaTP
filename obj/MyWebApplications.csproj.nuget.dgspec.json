@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\MyWebApplications.csproj": {}
+    "C:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\MyWebApplications.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\MyWebApplications.csproj": {
+    "C:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\MyWebApplications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\MyWebApplications.csproj",
+        "projectUniqueName": "C:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\MyWebApplications.csproj",
         "projectName": "MyWebApplications",
-        "projectPath": "C:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\MyWebApplications.csproj",
-        "packagesPath": "C:\\Users\\jinzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\obj\\",
+        "projectPath": "C:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\MyWebApplications.csproj",
+        "packagesPath": "C:\\Users\\GABIDA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jinzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GABIDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,12 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[1.5.3, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.2, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -75,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

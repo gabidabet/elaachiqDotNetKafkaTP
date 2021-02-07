@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\MyWebApplications.csproj",
+  "FilePath": "c:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\MyWebApplications.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,7 +15603,7 @@
   "RootNamespace": "MyWebApplications",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\jinzo\\dotnetProject\\MyWebApplications\\Views\\Test\\Index.cshtml",
+      "FilePath": "c:\\Users\\GABIDA\\source\\repos\\elaachiqDotNetKafkaTP\\Views\\Test\\Index.cshtml",
       "TargetPath": "Views\\Test\\Index.cshtml",
       "FileKind": "mvc"
     }
